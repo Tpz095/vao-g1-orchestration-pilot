@@ -1,0 +1,10 @@
+[project]
+name = "vao-g1-pilot"
+version = "0.1.0"
+description = "Synthetic test code for the VAO G1 orchestration pilot."
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+addopts = "-q --strict-markers"
